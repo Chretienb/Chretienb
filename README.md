@@ -1,207 +1,112 @@
-import React, { useState, useEffect } from 'react';
-import { LayoutGrid, Code2, Rocket, Music, Trophy } from 'lucide-react';
-import { Card, CardContent } from '@/components/ui/card';
+<div align="center">
 
-const FourDProfile = () => {
-  const [activeTab, setActiveTab] = useState('about');
-  const [rotateY, setRotateY] = useState(0);
+# ⚡ CHRETIEN BANZA ⚡
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setRotateY(prev => (prev + 1) % 360);
-    }, 50);
-    return () => clearInterval(interval);
-  }, []);
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Tech%20Innovator%20•%20Founder&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Building%20the%20Future%20of%20Fintech&descAlignY=55&descAlign=50"/>
+</div>
 
-  const tabStyle = (tab) => `
-    ${activeTab === tab ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white' : 'bg-gray-800 text-gray-300'}
-    px-4 py-2 rounded-lg cursor-pointer hover:opacity-90 transition-all
-  `;
+`Co-Founder @DrawFi` • `Sandbox Startup School` • `Full Stack Wizard` • `Musical Artist`
 
-  return (
-    <div className="w-full max-w-4xl mx-auto p-6 bg-gray-900 rounded-2xl shadow-2xl">
-      {/* Header Section */}
-      <div className="relative mb-8">
-        <div className="absolute inset-0 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 rounded-lg opacity-20 animate-pulse"></div>
-        <div className="relative p-6 text-center">
-          <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-            Chretien Banza
-          </h1>
-          <p className="text-gray-400 mt-2">Co-Founder @DrawFi • Sandbox Innovator</p>
-        </div>
-      </div>
+[![Portfolio](https://custom-icon-badges.demolab.com/badge/-Portfolio-FF1970?style=for-the-badge&logo=link&logoColor=white)](https://chretienb.github.io/)
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chretien-banza-042831242)
+[![Sandbox](https://custom-icon-badges.demolab.com/badge/-Sandbox-6366F1?style=for-the-badge&logo=rocket&logoColor=white)](https://www.sandbox.game/)
 
-      {/* Navigation Tabs */}
-      <div className="flex gap-4 mb-6 overflow-x-auto">
-        {[
-          { id: 'about', icon: <LayoutGrid size={20} />, label: 'Profile' },
-          { id: 'skills', icon: <Code2 size={20} />, label: 'Tech' },
-          { id: 'projects', icon: <Rocket size={20} />, label: 'Ventures' },
-          { id: 'achievements', icon: <Trophy size={20} />, label: 'Achievements' },
-          { id: 'music', icon: <Music size={20} />, label: 'Music' }
-        ].map(tab => (
-          <button
-            key={tab.id}
-            onClick={() => setActiveTab(tab.id)}
-            className={tabStyle(tab.id)}
-          >
-            <div className="flex items-center gap-2">
-              {tab.icon}
-              <span>{tab.label}</span>
-            </div>
-          </button>
-        ))}
-      </div>
+</div>
 
-      {/* Main Content Area */}
-      <div className="relative perspective-1000">
-        <div 
-          className="transform-gpu transition-transform duration-500"
-          style={{ transform: `rotateY(${activeTab === 'about' ? rotateY : 0}deg)` }}
-        >
-          {activeTab === 'about' && (
-            <Card className="bg-gray-800 border-0">
-              <CardContent className="p-6">
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="space-y-4">
-                    <div className="relative p-4 bg-gray-700 rounded-lg overflow-hidden">
-                      <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 opacity-10"></div>
-                      <h3 className="text-xl font-bold text-white mb-2">DrawFi Co-Founder</h3>
-                      <p className="text-gray-300">Leading innovation in construction lending</p>
-                    </div>
-                    <div className="relative p-4 bg-gray-700 rounded-lg overflow-hidden">
-                      <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-10"></div>
-                      <h3 className="text-xl font-bold text-white mb-2">Sandbox Elite</h3>
-                      <p className="text-gray-300">Startup school innovator</p>
-                    </div>
-                  </div>
-                  <div className="space-y-4">
-                    <div className="relative p-4 bg-gray-700 rounded-lg overflow-hidden">
-                      <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 opacity-10"></div>
-                      <h3 className="text-xl font-bold text-white mb-2">Tech Visionary</h3>
-                      <p className="text-gray-300">Full stack development expert</p>
-                    </div>
-                    <div className="relative p-4 bg-gray-700 rounded-lg overflow-hidden">
-                      <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 opacity-10"></div>
-                      <h3 className="text-xl font-bold text-white mb-2">Musical Artist</h3>
-                      <p className="text-gray-300">Multi-instrumentalist & creator</p>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          )}
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=FF1970&center=true&vCenter=true&random=false&width=435&lines=Co-Founder+%40+DrawFi;Sandbox+Innovator;Full+Stack+Developer;Musical+Artist" alt="Typing SVG" />
+</div>
 
-          {activeTab === 'skills' && (
-            <Card className="bg-gray-800 border-0">
-              <CardContent className="p-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {[
-                    { name: 'Python', level: 95 },
-                    { name: 'React', level: 90 },
-                    { name: 'Flutter', level: 88 },
-                    { name: 'Django', level: 92 }
-                  ].map(skill => (
-                    <div key={skill.name} className="relative p-4 bg-gray-700 rounded-lg">
-                      <div className="flex justify-between mb-2">
-                        <span className="text-white">{skill.name}</span>
-                        <span className="text-gray-400">{skill.level}%</span>
-                      </div>
-                      <div className="h-2 bg-gray-600 rounded-full overflow-hidden">
-                        <div 
-                          className="h-full bg-gradient-to-r from-purple-600 to-pink-600"
-                          style={{ width: `${skill.level}%` }}
-                        />
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-          )}
+## 🚀 FOUNDER JOURNEY
 
-          {activeTab === 'projects' && (
-            <Card className="bg-gray-800 border-0">
-              <CardContent className="p-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {[
-                    {
-                      name: 'DrawFi',
-                      description: 'Construction lending platform',
-                      color: 'from-purple-600 to-pink-600'
-                    },
-                    {
-                      name: 'wrkbnch',
-                      description: 'Contractor operations platform',
-                      color: 'from-blue-600 to-purple-600'
-                    },
-                    {
-                      name: 'SmartyKids',
-                      description: 'Educational gaming platform',
-                      color: 'from-pink-600 to-purple-600'
-                    },
-                    {
-                      name: 'SoundGrid',
-                      description: 'Music collaboration platform',
-                      color: 'from-purple-600 to-blue-600'
-                    }
-                  ].map(project => (
-                    <div key={project.name} className="relative p-4 bg-gray-700 rounded-lg overflow-hidden">
-                      <div className={`absolute inset-0 bg-gradient-to-r ${project.color} opacity-10`}></div>
-                      <h3 className="text-xl font-bold text-white mb-2">{project.name}</h3>
-                      <p className="text-gray-300">{project.description}</p>
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-          )}
+<div align="center">
+<table>
+<tr>
+<td>
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=DrawFi+Co-Founder&align=center&titleAlign=center&lineCount=1&theme=github_dark&line1=data:image%2Fsvg%2Bxml%3Bbase64%2CPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyNC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI%2BDQoJLnN0MHtmaWxsOiNGRjE5NzA7fQ0KPC9zdHlsZT4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMiwwQzUuNCwwLDAsNS40LDAsMTJzNS40LDEyLDEyLDEyczEyLTUuNCwxMi0xMlMxOC42LDAsMTIsMHoiLz4NCjwvc3ZnPg0K%2CDrawFi%2CFF1970" alt="DrawFi Stack"/>
+</td>
+<td>
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=Sandbox+Elite&align=center&titleAlign=center&lineCount=1&theme=github_dark&line1=data:image%2Fsvg%2Bxml%3Bbase64%2CPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyNC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI%2BDQoJLnN0MHtmaWxsOiM2MzY2RjE7fQ0KPC9zdHlsZT4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMiwwQzUuNCwwLDAsNS40LDAsMTJzNS40LDEyLDEyLDEyczEyLTUuNCwxMi0xMlMxOC42LDAsMTIsMHoiLz4NCjwvc3ZnPg0K%2CSandbox%2C6366F1" alt="Sandbox Stack"/>
+</td>
+</tr>
+</table>
+</div>
 
-          {activeTab === 'achievements' && (
-            <Card className="bg-gray-800 border-0">
-              <CardContent className="p-6">
-                <div className="space-y-4">
-                  {[
-                    'DrawFi Co-Founder & Launch',
-                    'Sandbox Hackathon Winner',
-                    'Stanford UIF Program',
-                    'Multi-Instrument Mastery'
-                  ].map((achievement, index) => (
-                    <div key={index} className="relative p-4 bg-gray-700 rounded-lg overflow-hidden">
-                      <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 opacity-10"></div>
-                      <div className="flex items-center gap-3">
-                        <Trophy className="text-yellow-500" size={24} />
-                        <span className="text-white">{achievement}</span>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-          )}
+## 🎮 VENTURES & QUESTS
 
-          {activeTab === 'music' && (
-            <Card className="bg-gray-800 border-0">
-              <CardContent className="p-6">
-                <div className="text-center space-y-4">
-                  <Music size={48} className="mx-auto text-purple-500" />
-                  <h3 className="text-xl font-bold text-white">Musical Journey</h3>
-                  <p className="text-gray-300">Proficient in 5+ instruments including:</p>
-                  <div className="grid grid-cols-2 gap-4 mt-4">
-                    {['Piano 🎹', 'Guitar 🎸', 'Drums 🥁', 'Bass 🎸', 'Synthesizer 🎹'].map((instrument, index) => (
-                      <div key={index} className="p-3 bg-gray-700 rounded-lg text-white">
-                        {instrument}
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          )}
-        </div>
-      </div>
-    </div>
-  );
+<div align="center">
+
+| DrawFi Kingdom | Sandbox Arena |
+|:---:|:---:|
+| 🏰 **Co-Founder & Tech Lead** | ⚔️ **Innovation Warrior** |
+| Revolutionizing construction lending | Startup mastery program |
+| `ML-powered analytics` | `Hackathon champion` |
+| `Draw automation` | `Pitch competition victor` |
+| `Real-time risk assessment` | `Strategy master` |
+
+</div>
+
+## 💫 POWER GRID
+
+```js
+const techPowers = {
+    languages: {
+        primary: ['Python', 'Dart', 'JavaScript'],
+        learning: ['Rust', 'Go']
+    },
+    frameworks: {
+        frontend: ['Flutter', 'React'],
+        backend: ['Django', 'Node.js'],
+        database: ['PostgreSQL', 'Firebase']
+    },
+    specialMoves: {
+        founder: 'DrawFi Innovation',
+        sandbox: 'Startup Strategy',
+        technical: 'Full Stack Mastery',
+        creative: 'Musical Artistry'
+    }
 };
+```
 
-export default FourDProfile;
+## 🎯 ACHIEVEMENT LOG
+
+<img align="right" width="45%" src="https://github-readme-streak-stats.herokuapp.com/?user=Chretienb&theme=radical&hide_border=true"/>
+
+🏆 **Epic Achievements**
+- 🚀 DrawFi Co-Founder & Launch
+- 🎮 Sandbox Hackathon Champion
+- 🎓 Stanford UIF Program Graduate
+- 🎵 Multi-Instrument Mastery (5+)
+- ⚡ Full Stack Development Expert
+
+## 🎵 MUSICAL REALM
+
+<div align="center">
+
+[![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=chretienbanza&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=chretienbanza&redirect=true)
+
+*Multi-Instrument Bard • Sound Weaver • Rhythm Master*
+</div>
+
+## 🛠️ TECH ARSENAL
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+
+</div>
+
+<div align="center">
+
+---
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+
+</div>
