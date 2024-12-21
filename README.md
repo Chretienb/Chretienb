@@ -1,98 +1,122 @@
-# ⚡ Chretien Banza
-
-`Tech Innovator` • `Full Stack Developer` • `Music Enthusiast`
+# Chretien Banza &nbsp;|&nbsp; Data-Driven Developer
 
 <div align="center">
-  
-[![GitHub followers](https://img.shields.io/github/followers/Chretienb?style=flat&color=0891b2&labelColor=1e293b)](https://github.com/Chretienb)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Coming_Soon-0891b2?style=flat&labelColor=1e293b)](https://chretienb.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0891b2?style=flat&labelColor=1e293b)](https://www.linkedin.com/in/chretien-banza-042831242)
+
+![DrawFi Logo](drawfi-logo.svg)
+
+`Innovation` • `Full Stack Development` • `Machine Learning` • `Data Science`
+
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-20232A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Chretienb)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Coming_Soon-20232A?style=for-the-badge&logo=apple&logoColor=white)](https://chretienb.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-20232A?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chretien-banza-042831242)
 
 </div>
 
-## 🎯 Current Ventures
+## Analytics Dashboard
 
-<table>
-<tr>
-<td width="50%">
-<h3 align="center">DrawFi</h3>
-<div align="center">
-  <a href="#" target="_blank">
-    <img src="https://img.shields.io/badge/Fintech-Construction_Lending-00c4cc?style=flat&labelColor=1e293b" alt="DrawFi">
-  </a>
-  <p>Revolutionizing construction loan management through streamlined draw request processing</p>
-</div>
-</td>
-<td width="50%">
-<h3 align="center">wrkbnch</h3>
-<div align="center">
-  <a href="#" target="_blank">
-    <img src="https://img.shields.io/badge/SaaS-Contractor_Solutions-22c55e?style=flat&labelColor=1e293b" alt="wrkbnch">
-  </a>
-  <p>Empowering contractors with intelligent operational tools and workflows</p>
-</div>
-</td>
-</tr>
-<tr>
-<td width="50%">
-<h3 align="center">SmartyKids</h3>
-<div align="center">
-  <a href="#" target="_blank">
-    <img src="https://img.shields.io/badge/EdTech-Interactive_Learning-f59e0b?style=flat&labelColor=1e293b" alt="SmartyKids">
-  </a>
-  <p>Gamified geography and history learning platform for young minds</p>
-</div>
-</td>
-<td width="50%">
-<h3 align="center">SoundGrid</h3>
-<div align="center">
-  <a href="#" target="_blank">
-    <img src="https://img.shields.io/badge/Music-Collaboration_Platform-8b5cf6?style=flat&labelColor=1e293b" alt="SoundGrid">
-  </a>
-  <p>Connecting musicians, engineers, and producers in a creative ecosystem</p>
-</div>
-</td>
-</tr>
-</table>
+<div align="center" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
 
-## 💻 Tech Arsenal
+| Metric | Value |
+|:--|:--|
+| 🚀 Projects Launched | 4 |
+| 💻 Technologies | 12+ |
+| 🎵 Instruments | 5+ |
+| 🌟 GitHub Stars | Growing |
 
-```javascript
-const techStack = {
-    languages: ['Python', 'Dart', 'JavaScript'],
-    frameworks: ['Flutter', 'React', 'Django'],
-    cloud: ['Firebase', 'Docker', 'Supabase'],
-    databases: ['PostgreSQL', 'MySQL', 'SQLite'],
-    expertise: ['Machine Learning', 'Data Analysis', 'RESTful APIs']
-};
+</div>
+
+```python
+# Tech Stack Overview
+class ChretienBanza:
+    def __init__(self):
+        self.languages = {
+            'primary': ['Python', 'Dart', 'JavaScript'],
+            'learning': ['Rust', 'Go']
+        }
+        self.expertise = {
+            'data_science': ['Machine Learning', 'Data Analysis', 'Visualization'],
+            'development': ['Full Stack', 'Mobile', 'Cloud'],
+            'tools': ['Docker', 'Git', 'CI/CD']
+        }
+        self.current_focus = 'Fintech Innovation'
 ```
 
-## 📈 GitHub Analytics
+## Project Portfolio
 
-<div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Chretienb&show_icons=true&theme=city_lights&hide_border=true&bg_color=0d1117&title_color=0891b2&icon_color=0891b2)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Chretienb&layout=compact&theme=city_lights&hide_border=true&bg_color=0d1117&title_color=0891b2)
-  
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Chretienb&theme=city-lights&hide_border=true&background=0d1117&ring=0891b2&fire=0891b2&currStreakLabel=0891b2)](https://git.io/streak-stats)
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+
+### 📊 DrawFi
+<img src="https://img.shields.io/badge/Status-Live-00C853?style=for-the-badge&logo=firebase&logoColor=white"/>
+
+Revolutionizing construction loan management with ML-powered analytics and automated draw processing.
+
+### 🛠️ wrkbnch
+<img src="https://img.shields.io/badge/Status-Beta-FF6F00?style=for-the-badge&logo=flutter&logoColor=white"/>
+
+Smart operations platform for contractors featuring predictive scheduling and resource optimization.
+
+### 📱 SmartyKids
+<img src="https://img.shields.io/badge/Status-Development-2962FF?style=for-the-badge&logo=react&logoColor=white"/>
+
+Educational platform using gamification and AI to personalize learning experiences.
+
+### 🎵 SoundGrid
+<img src="https://img.shields.io/badge/Status-Alpha-7B1FA2?style=for-the-badge&logo=apple-music&logoColor=white"/>
+
+Next-gen music collaboration platform with real-time audio processing.
 
 </div>
 
-## 🏆 Recent Achievements
+## Development Metrics
 
-- 🚀 Successfully launched DrawFi platform
-- 🎮 Developed "Soccer Kick Showdown" in 24-hour Sandbox hackathon
-- 🎓 Stanford University Innovation Fellowship (UIF) participant
-- 🎵 Multi-instrumentalist proficient in 5+ instruments
+<div align="center">
 
-## 🎵 Currently Playing
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Chretienb&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=FF1970&icon_color=FF1970&text_color=FFFFFF)
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=chretienbanza&cover_image=true&theme=natemoo-re&show_offline=false&background_color=0d1117&bar_color=0891b2)](https://github.com/kittinan/spotify-github-profile)
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Chretienb&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=FF1970&text_color=FFFFFF)
+
+</div>
+
+## Recent Achievements
+
+```mermaid
+gantt
+    title Project Timeline
+    dateFormat  YYYY-MM
+    section DrawFi
+    Development    :2023-01, 2023-06
+    Launch         :2023-06, 2023-07
+    section Hackathon
+    Soccer Kick    :2023-08, 2023-09
+    section UIF
+    Stanford       :2023-09, 2024-01
+```
+
+## Current Stack
+
+<div align="center" style="background: #0D1117; padding: 20px; border-radius: 10px;">
+
+| Category | Technologies |
+|:--|:--|
+| **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white) |
+| **Backend** | ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) |
+| **Database** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=flat&logo=mysql&logoColor=white) |
+| **Cloud** | ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) |
+
+</div>
+
+## 🎵 Now Playing
+
+<div align="center">
+
+[![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=chretienbanza&cover_image=true&theme=natemoo-re&show_offline=false&background_color=0d1117&interchange=true&bar_color=FF1970&bar_color_cover=false)](https://github.com/kittinan/spotify-github-profile)
+
+</div>
 
 ---
 
 <div align="center">
-  
-[![Profile Views](https://komarev.com/ghpvc/?username=Chretienb&color=0891b2&style=flat&label=Profile+Views)](https://github.com/Chretienb)
+
+[![Profile Views](https://komarev.com/ghpvc/?username=Chretienb&color=FF1970&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/Chretienb)
 
 </div>
