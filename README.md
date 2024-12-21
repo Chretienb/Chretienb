@@ -1,146 +1,146 @@
-# 🎮 Chretien Banza's Dev Adventure
+# <div align="center">Chretien Banza</div>
 
 <div align="center">
 
-```
-LEVEL 99 FULL STACK DEVELOPER
-XP: ████████████████████ 99999/100000
-```
+`Co-Founder @DrawFi` • `Sandbox Startup School` • `Full Stack Developer` • `Musical Artist`
 
-[![GitHub](https://img.shields.io/badge/Join_My_Party-20232A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Chretienb)
-[![Portfolio](https://img.shields.io/badge/View_Quest_Log-20232A?style=for-the-badge&logo=apple&logoColor=white)](https://chretienb.github.io/)
-[![LinkedIn](https://img.shields.io/badge/Join_Guild-20232A?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chretien-banza-042831242)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-FF1970?style=for-the-badge&logoColor=white)](https://chretienb.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chretien-banza-042831242)
+[![Sandbox](https://img.shields.io/badge/Sandbox-Startup_School-6366F1?style=for-the-badge&logoColor=white)](https://www.playsandbox.com/)
 
 </div>
 
-## 🏆 Character Stats
+## 🚀 Founder Journey
 
-```css
-STRENGTH:     ████████████ 92/100  (Problem Solving)
-INTELLIGENCE: ████████████ 95/100  (Technical Knowledge)
-DEXTERITY:    ███████████░ 85/100  (Code Speed)
-CHARISMA:     ████████████ 90/100  (Team Collaboration)
-WISDOM:       ███████████░ 88/100  (Architecture Design)
-CREATIVITY:   ████████████ 93/100  (Innovation)
-```
-
-## 🎯 Active Quests
-
-### 🔮 DrawFi
-> *Legendary Item* | *Boss Level Project*
-```
-QUEST: Transform the construction lending realm
-DIFFICULTY: ⭐⭐⭐⭐⭐
-REWARDS: 
-  - Automated Draw Processing
-  - ML-Powered Analytics
-  - Real-time Risk Assessment
-STATUS: [▰▰▰▰▰▰▰▰▱▱] 80% Complete
-```
-
-### ⚔️ wrkbnch
-> *Epic Item* | *High-Level Mission*
-```
-QUEST: Empower contractors with digital tools
-DIFFICULTY: ⭐⭐⭐⭐
-REWARDS:
-  - Smart Scheduling
-  - Resource Optimization
-  - Workflow Automation
-STATUS: [▰▰▰▰▰▰▱▱▱▱] 60% Complete
-```
-
-### 📚 SmartyKids
-> *Rare Item* | *Educational Campaign*
-```
-QUEST: Gamify learning for young minds
-DIFFICULTY: ⭐⭐⭐
-REWARDS:
-  - Interactive Learning
-  - Knowledge Achievements
-  - Fun Progression System
-STATUS: [▰▰▰▰▱▱▱▱▱▱] 40% Complete
-```
-
-### 🎵 SoundGrid
-> *Unique Item* | *Creative Mission*
-```
-QUEST: Unite musicians in digital harmony
-DIFFICULTY: ⭐⭐⭐⭐
-REWARDS:
-  - Real-time Collaboration
-  - Audio Processing
-  - Artist Networking
-STATUS: [▰▰▱▱▱▱▱▱▱▱] 20% Complete
-```
-
-## 🎒 Inventory (Tech Stack)
+<div align="center">
+<table>
+<tr>
+<td width="50%" align="center">
+<img src="https://img.shields.io/badge/DrawFi-Co_Founder-FF1970?style=for-the-badge&logoColor=white"/>
+<p><em>Transforming Construction Lending</em></p>
 
 ```python
-class TechInventory:
-    # Primary Weapons
-    languages = {
-        "Python": "Legendary ⭐⭐⭐⭐⭐",
-        "Dart": "Epic ⭐⭐⭐⭐",
-        "JavaScript": "Epic ⭐⭐⭐⭐"
-    }
-    
-    # Armor Sets
-    frameworks = {
-        "Flutter": "Legendary Shield 🛡️",
-        "React": "Epic Chestplate ⚔️",
-        "Django": "Mythic Boots 👢"
-    }
-    
-    # Magic Scrolls
-    tools = {
-        "Firebase": "Flame Scroll 🔥",
-        "Docker": "Ocean Scroll 🌊",
-        "Git": "Time Scroll ⌛"
-    }
+class DrawFi:
+    mission = "Revolutionize construction loan management"
+    stage = "Sandbox Startup School"
+    focus = ["Fintech", "ML Analytics", "Draw Automation"]
+    impact = "Streamlining $B+ in construction loans"
 ```
+</td>
+<td width="50%" align="center">
+<img src="https://img.shields.io/badge/Sandbox-Current_Cohort-6366F1?style=for-the-badge&logoColor=white"/>
+<p><em>Startup School & Innovation Hub</em></p>
 
-## 🏰 Base Stats
+```python
+class SandboxJourney:
+    program = "Intensive Startup Program"
+    achievements = ["Hackathon Winner", 
+                   "Pitch Competition"]
+    mentorship = "Industry Leaders & Investors"
+```
+</td>
+</tr>
+</table>
+</div>
 
-<div align="center">
+## 💫 Venture Portfolio
 
-![Achievement Points](https://github-readme-stats.vercel.app/api?username=Chretienb&show_icons=true&theme=radical&hide_border=true&title_color=ff64da&icon_color=a960ff&text_color=ffffff&bg_color=291B3E)
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; padding: 20px;">
 
-![Skill Tree](https://github-readme-stats.vercel.app/api/top-langs/?username=Chretienb&layout=compact&theme=radical&hide_border=true&title_color=ff64da&text_color=ffffff&bg_color=291B3E)
+<div style="background: linear-gradient(135deg, #FF1970 0%, #6366F1 100%); padding: 20px; border-radius: 10px; color: white;">
+<h3>🏗️ DrawFi</h3>
+<p><strong>Co-Founder & Tech Lead</strong></p>
+<ul>
+<li>Revolutionizing construction loan management</li>
+<li>ML-powered draw processing automation</li>
+<li>Real-time risk assessment platform</li>
+</ul>
+</div>
+
+<div style="background: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%); padding: 20px; border-radius: 10px; color: white;">
+<h3>🛠️ wrkbnch</h3>
+<p><strong>Founder & Developer</strong></p>
+<ul>
+<li>Contractor operations platform</li>
+<li>Smart resource optimization</li>
+<li>Automated workflow management</li>
+</ul>
+</div>
+
+<div style="background: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%); padding: 20px; border-radius: 10px; color: white;">
+<h3>📚 SmartyKids</h3>
+<p><strong>Creator & Lead Developer</strong></p>
+<ul>
+<li>Educational gaming platform</li>
+<li>Interactive geography & history</li>
+<li>Adaptive learning system</li>
+</ul>
+</div>
+
+<div style="background: linear-gradient(135deg, #EC4899 0%, #FF1970 100%); padding: 20px; border-radius: 10px; color: white;">
+<h3>🎵 SoundGrid</h3>
+<p><strong>Founder & Music Tech Lead</strong></p>
+<ul>
+<li>Music collaboration platform</li>
+<li>Real-time audio processing</li>
+<li>Artist networking hub</li>
+</ul>
+</div>
 
 </div>
 
-## 🎵 Bard's Playlist
+## 🎯 Technical Arsenal
 
-<div align="center">
+<div style="background: #1E293B; padding: 20px; border-radius: 10px;">
 
-[![Current Song](https://spotify-github-profile.vercel.app/api/view?uid=chretienbanza&cover_image=true&theme=natemoo-re&show_offline=false&background_color=291B3E&interchange=true&bar_color=ff64da)](https://github.com/kittinan/spotify-github-profile)
+```javascript
+const technicalExpertise = {
+    languages: {
+        primary: ['Python', 'Dart', 'JavaScript'],
+        growing: ['Rust', 'Go']
+    },
+    expertise: {
+        startup: ['Product Strategy', 'Team Leadership', 'Pitch Development'],
+        technical: ['Full Stack', 'Machine Learning', 'Mobile Dev'],
+        creative: ['Music Production', 'UI/UX Design']
+    },
+    stack: {
+        frontend: ['Flutter', 'React', 'Tailwind'],
+        backend: ['Django', 'Node.js', 'Firebase'],
+        data: ['PostgreSQL', 'MySQL', 'Analytics']
+    }
+};
+```
 
 </div>
 
-## 🏆 Achievement Log
+## 🌟 Milestones & Achievements
 
-```
-🎯 [2024] Completed DrawFi Launch Quest
-🎮 [2024] Conquered Sandbox Hackathon
-🎓 [2024] Obtained Stanford UIF Certification
-🎵 [2024] Mastered 5+ Musical Instruments
-```
+<div style="background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%); padding: 20px; border-radius: 10px; color: white;">
 
-## 🌟 Special Abilities
+- 🚀 **DrawFi Co-Founder** - Building the future of construction lending at Sandbox
+- 🏆 **Sandbox Hackathon Winner** - "Soccer Kick Showdown" - 24hr Game Development
+- 🎓 **Stanford UIF Program** - University Innovation Fellowship participant
+- 🎵 **Multi-Instrumentalist** - Proficient in 5+ instruments
+- 💡 **Innovation Leader** - Developed multiple successful tech platforms
+- 🌐 **Community Builder** - Active mentor in tech & startup communities
 
-- **Polyglot Coding:** Master of multiple programming languages
-- **Full Stack Sorcery:** Proficient in both frontend and backend magic
-- **Musical Enchantment:** Can cast spells with 5+ instruments
-- **Agile Movement:** Swift project deployment and iteration
+</div>
+
+## 🎵 Musical Soul
+
+<div align="center">
+
+[![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=chretienbanza&cover_image=true&theme=natemoo-re&show_offline=false&background_color=1E293B&interchange=true&bar_color=FF1970)](https://github.com/kittinan/spotify-github-profile)
+
+*When I'm not coding or building startups, you'll find me creating music with my collection of instruments* 🎸🎹🥁
+
+</div>
 
 ---
 
 <div align="center">
 
-```
-PLAYERS ENCOUNTERED
-```
-[![Visitor Count](https://komarev.com/ghpvc/?username=Chretienb&color=ff64da&style=for-the-badge&label=ADVENTURERS+MET)](https://github.com/Chretienb)
+*"Building the future of fintech, one line of code at a time."*
 
 </div>
