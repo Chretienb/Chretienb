@@ -1,188 +1,207 @@
-# <div align="center">⚡ CHRETIEN BANZA ⚡</div>
+import React, { useState, useEffect } from 'react';
+import { LayoutGrid, Code2, Rocket, Music, Trophy } from 'lucide-react';
+import { Card, CardContent } from '@/components/ui/card';
 
-<div align="center">
+const FourDProfile = () => {
+  const [activeTab, setActiveTab] = useState('about');
+  const [rotateY, setRotateY] = useState(0);
 
-```
-[ LEVEL 99 TECH FOUNDER ]
-[ SANDBOX ELITE MEMBER ]
-[ DRAWFI CO-FOUNDER ]
-```
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setRotateY(prev => (prev + 1) % 360);
+    }, 50);
+    return () => clearInterval(interval);
+  }, []);
 
-[![Portfolio](https://img.shields.io/badge/VIEW_QUEST_LOG-FF1970?style=for-the-badge&logoColor=white)](https://chretienb.github.io/)
-[![LinkedIn](https://img.shields.io/badge/JOIN_PARTY-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chretien-banza-042831242)
-[![Sandbox](https://img.shields.io/badge/ENTER_SANDBOX-6366F1?style=for-the-badge&logoColor=white)](https://www.playsandbox.com/)
+  const tabStyle = (tab) => `
+    ${activeTab === tab ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white' : 'bg-gray-800 text-gray-300'}
+    px-4 py-2 rounded-lg cursor-pointer hover:opacity-90 transition-all
+  `;
 
-</div>
+  return (
+    <div className="w-full max-w-4xl mx-auto p-6 bg-gray-900 rounded-2xl shadow-2xl">
+      {/* Header Section */}
+      <div className="relative mb-8">
+        <div className="absolute inset-0 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 rounded-lg opacity-20 animate-pulse"></div>
+        <div className="relative p-6 text-center">
+          <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
+            Chretien Banza
+          </h1>
+          <p className="text-gray-400 mt-2">Co-Founder @DrawFi • Sandbox Innovator</p>
+        </div>
+      </div>
 
-## 🎮 PLAYER STATS
+      {/* Navigation Tabs */}
+      <div className="flex gap-4 mb-6 overflow-x-auto">
+        {[
+          { id: 'about', icon: <LayoutGrid size={20} />, label: 'Profile' },
+          { id: 'skills', icon: <Code2 size={20} />, label: 'Tech' },
+          { id: 'projects', icon: <Rocket size={20} />, label: 'Ventures' },
+          { id: 'achievements', icon: <Trophy size={20} />, label: 'Achievements' },
+          { id: 'music', icon: <Music size={20} />, label: 'Music' }
+        ].map(tab => (
+          <button
+            key={tab.id}
+            onClick={() => setActiveTab(tab.id)}
+            className={tabStyle(tab.id)}
+          >
+            <div className="flex items-center gap-2">
+              {tab.icon}
+              <span>{tab.label}</span>
+            </div>
+          </button>
+        ))}
+      </div>
 
-<div style="background: linear-gradient(45deg, #FF1970, #6366F1, #FF1970); padding: 2px; border-radius: 10px;">
-<div style="background: #0F172A; padding: 20px; border-radius: 8px;">
+      {/* Main Content Area */}
+      <div className="relative perspective-1000">
+        <div 
+          className="transform-gpu transition-transform duration-500"
+          style={{ transform: `rotateY(${activeTab === 'about' ? rotateY : 0}deg)` }}
+        >
+          {activeTab === 'about' && (
+            <Card className="bg-gray-800 border-0">
+              <CardContent className="p-6">
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="space-y-4">
+                    <div className="relative p-4 bg-gray-700 rounded-lg overflow-hidden">
+                      <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 opacity-10"></div>
+                      <h3 className="text-xl font-bold text-white mb-2">DrawFi Co-Founder</h3>
+                      <p className="text-gray-300">Leading innovation in construction lending</p>
+                    </div>
+                    <div className="relative p-4 bg-gray-700 rounded-lg overflow-hidden">
+                      <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-10"></div>
+                      <h3 className="text-xl font-bold text-white mb-2">Sandbox Elite</h3>
+                      <p className="text-gray-300">Startup school innovator</p>
+                    </div>
+                  </div>
+                  <div className="space-y-4">
+                    <div className="relative p-4 bg-gray-700 rounded-lg overflow-hidden">
+                      <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 opacity-10"></div>
+                      <h3 className="text-xl font-bold text-white mb-2">Tech Visionary</h3>
+                      <p className="text-gray-300">Full stack development expert</p>
+                    </div>
+                    <div className="relative p-4 bg-gray-700 rounded-lg overflow-hidden">
+                      <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 opacity-10"></div>
+                      <h3 className="text-xl font-bold text-white mb-2">Musical Artist</h3>
+                      <p className="text-gray-300">Multi-instrumentalist & creator</p>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          )}
 
-```python
-class PlayerProfile:
-    name = "Chretien Banza"
-    title = "Legendary Tech Founder"
-    class_type = "Full Stack Wizard"
-    guild = "Sandbox Startup School"
-    specialization = "Fintech Innovation"
-    
-    # Special Abilities
-    powers = [
-        "4D Chess Thinking",
-        "Code Mastery",
-        "Startup Leadership",
-        "Musical Enchantment"
-    ]
-```
+          {activeTab === 'skills' && (
+            <Card className="bg-gray-800 border-0">
+              <CardContent className="p-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {[
+                    { name: 'Python', level: 95 },
+                    { name: 'React', level: 90 },
+                    { name: 'Flutter', level: 88 },
+                    { name: 'Django', level: 92 }
+                  ].map(skill => (
+                    <div key={skill.name} className="relative p-4 bg-gray-700 rounded-lg">
+                      <div className="flex justify-between mb-2">
+                        <span className="text-white">{skill.name}</span>
+                        <span className="text-gray-400">{skill.level}%</span>
+                      </div>
+                      <div className="h-2 bg-gray-600 rounded-full overflow-hidden">
+                        <div 
+                          className="h-full bg-gradient-to-r from-purple-600 to-pink-600"
+                          style={{ width: `${skill.level}%` }}
+                        />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          )}
 
-</div>
-</div>
+          {activeTab === 'projects' && (
+            <Card className="bg-gray-800 border-0">
+              <CardContent className="p-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {[
+                    {
+                      name: 'DrawFi',
+                      description: 'Construction lending platform',
+                      color: 'from-purple-600 to-pink-600'
+                    },
+                    {
+                      name: 'wrkbnch',
+                      description: 'Contractor operations platform',
+                      color: 'from-blue-600 to-purple-600'
+                    },
+                    {
+                      name: 'SmartyKids',
+                      description: 'Educational gaming platform',
+                      color: 'from-pink-600 to-purple-600'
+                    },
+                    {
+                      name: 'SoundGrid',
+                      description: 'Music collaboration platform',
+                      color: 'from-purple-600 to-blue-600'
+                    }
+                  ].map(project => (
+                    <div key={project.name} className="relative p-4 bg-gray-700 rounded-lg overflow-hidden">
+                      <div className={`absolute inset-0 bg-gradient-to-r ${project.color} opacity-10`}></div>
+                      <h3 className="text-xl font-bold text-white mb-2">{project.name}</h3>
+                      <p className="text-gray-300">{project.description}</p>
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          )}
 
-## 🎯 ACTIVE QUESTS
+          {activeTab === 'achievements' && (
+            <Card className="bg-gray-800 border-0">
+              <CardContent className="p-6">
+                <div className="space-y-4">
+                  {[
+                    'DrawFi Co-Founder & Launch',
+                    'Sandbox Hackathon Winner',
+                    'Stanford UIF Program',
+                    'Multi-Instrument Mastery'
+                  ].map((achievement, index) => (
+                    <div key={index} className="relative p-4 bg-gray-700 rounded-lg overflow-hidden">
+                      <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 opacity-10"></div>
+                      <div className="flex items-center gap-3">
+                        <Trophy className="text-yellow-500" size={24} />
+                        <span className="text-white">{achievement}</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          )}
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; padding: 20px;">
-
-<div style="background: linear-gradient(135deg, #FF1970 0%, #6366F1 100%); padding: 2px; border-radius: 10px;">
-<div style="background: #0F172A; padding: 20px; border-radius: 8px; height: 100%;">
-<h3>🏰 DrawFi Kingdom</h3>
-<p>[ LEGENDARY QUEST ]</p>
-
-```
-ROLE: Co-Founder & Tech Archmage
-MISSION: Revolutionize Construction Lending
-PROGRESS: [█████████░] 90%
-ACHIEVEMENTS: 
-➢ Sandbox Elite Status
-➢ ML Prophecy Engine
-➢ Draw Automation Mastery
-```
-</div>
-</div>
-
-<div style="background: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%); padding: 2px; border-radius: 10px;">
-<div style="background: #0F172A; padding: 20px; border-radius: 8px; height: 100%;">
-<h3>⚔️ Sandbox Arena</h3>
-<p>[ EPIC QUEST ]</p>
-
-```
-ROLE: Innovation Warrior
-MISSION: Startup Mastery Program
-PROGRESS: [████████░░] 80%
-ACHIEVEMENTS:
-➢ Hackathon Champion
-➢ Pitch Battle Victor
-➢ Strategy Master
-```
-</div>
-</div>
-
-</div>
-
-## 💫 POWER GRID
-
-<div style="background: linear-gradient(45deg, #FF1970, #6366F1, #8B5CF6, #FF1970); padding: 2px; border-radius: 10px;">
-<div style="background: #0F172A; padding: 20px; border-radius: 8px;">
-
-```javascript
-// Tech Power Matrix
-const abilities = {
-    founding: {
-        leadership: "SSS Rank",
-        vision: "SSS Rank",
-        execution: "SS Rank"
-    },
-    development: {
-        frontend: ["Flutter", "React"],
-        backend: ["Django", "Node.js"],
-        database: ["PostgreSQL", "Firebase"]
-    },
-    special_moves: {
-        "4D Strategy": "Transform business landscapes",
-        "Code Burst": "Rapid development mastery",
-        "Mentor Shield": "Team empowerment",
-        "Sound Wave": "5+ instrument mastery"
-    }
+          {activeTab === 'music' && (
+            <Card className="bg-gray-800 border-0">
+              <CardContent className="p-6">
+                <div className="text-center space-y-4">
+                  <Music size={48} className="mx-auto text-purple-500" />
+                  <h3 className="text-xl font-bold text-white">Musical Journey</h3>
+                  <p className="text-gray-300">Proficient in 5+ instruments including:</p>
+                  <div className="grid grid-cols-2 gap-4 mt-4">
+                    {['Piano 🎹', 'Guitar 🎸', 'Drums 🥁', 'Bass 🎸', 'Synthesizer 🎹'].map((instrument, index) => (
+                      <div key={index} className="p-3 bg-gray-700 rounded-lg text-white">
+                        {instrument}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          )}
+        </div>
+      </div>
+    </div>
+  );
 };
-```
 
-</div>
-</div>
-
-## 🎲 SIDE QUESTS
-
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; padding: 20px;">
-
-<div style="background: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%); padding: 2px; border-radius: 10px;">
-<div style="background: #0F172A; padding: 20px; border-radius: 8px; height: 100%;">
-<h3>📱 wrkbnch forge</h3>
-
-```
-MISSION: Empower Contractors
-DIFFICULTY: ⭐⭐⭐⭐
-STATUS: DEVELOPMENT
-POWER-UPS:
-➢ Smart Scheduling
-➢ Resource Management
-➢ Workflow Automation
-```
-</div>
-</div>
-
-<div style="background: linear-gradient(135deg, #EC4899 0%, #FF1970 100%); padding: 2px; border-radius: 10px;">
-<div style="background: #0F172A; padding: 20px; border-radius: 8px; height: 100%;">
-<h3>🎵 SoundGrid realm</h3>
-
-```
-MISSION: Unite Musicians
-DIFFICULTY: ⭐⭐⭐⭐
-STATUS: ALPHA
-POWER-UPS:
-➢ Real-time Collaboration
-➢ Audio Processing
-➢ Artist Network
-```
-</div>
-</div>
-
-</div>
-
-## 🏆 ACHIEVEMENT LOG
-
-<div style="background: linear-gradient(45deg, #FF1970, #6366F1, #FF1970); padding: 2px; border-radius: 10px;">
-<div style="background: #0F172A; padding: 20px; border-radius: 8px;">
-
-```
-⚡ LEGENDARY ACHIEVEMENTS UNLOCKED ⚡
-
-[2024] 🏰 Founded DrawFi Kingdom
-[2024] ⚔️ Conquered Sandbox Challenges
-[2024] 🎓 Obtained Stanford UIF Relic
-[2024] 🎵 Mastered Musical Artifacts (5+)
-[2024] 🎮 Won Soccer Kick Showdown Tournament
-```
-
-</div>
-</div>
-
-## 🎵 BATTLE THEME
-
-<div align="center" style="background: linear-gradient(45deg, #FF1970, #6366F1, #FF1970); padding: 2px; border-radius: 10px;">
-<div style="background: #0F172A; padding: 20px; border-radius: 8px;">
-
-[![Now Playing](https://spotify-github-profile.vercel.app/api/view?uid=chretienbanza&cover_image=true&theme=natemoo-re&show_offline=false&background_color=0F172A&interchange=true&bar_color=FF1970)](https://github.com/kittinan/spotify-github-profile)
-
-*Multi-Instrument Bard • Sound Weaver • Rhythm Master*
-
-</div>
-</div>
-
----
-
-<div align="center">
-
-```
-[ PROFILE POWER LEVEL: OVER 9000! ]
-```
-
-</div>
+export default FourDProfile;
