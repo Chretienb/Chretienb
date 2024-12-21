@@ -1,57 +1,98 @@
-# 👋 Hi, I'm Chretien Banza!
+# ⚡ Chretien Banza
 
-### 🌟 About Me
+`Tech Innovator` • `Full Stack Developer` • `Music Enthusiast`
 
-I'm a tech enthusiast and problem solver passionate about leveraging technology to create impactful solutions. I enjoy working on challenging projects that push boundaries and bring ideas to life.
+<div align="center">
+  
+[![GitHub followers](https://img.shields.io/github/followers/Chretienb?style=flat&color=0891b2&labelColor=1e293b)](https://github.com/Chretienb)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Coming_Soon-0891b2?style=flat&labelColor=1e293b)](https://chretienb.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0891b2?style=flat&labelColor=1e293b)](https://www.linkedin.com/in/chretien-banza-042831242)
 
-### 🚀 Current Focus
+</div>
 
-- Building [DrawFi](#), a fintech solution transforming how lenders manage construction loans.
-- Developing [wrkbnch](#), a platform empowering contractors with streamlined operations.
-- Creating [SmartyKids](#), an engaging educational app for kids, focusing on geography and history quizzes.
-- Innovating with [SoundGrid](#), a collaborative platform for musical artists.
+## 🎯 Current Ventures
 
-### 🛠️ Tech Stack
+<table>
+<tr>
+<td width="50%">
+<h3 align="center">DrawFi</h3>
+<div align="center">
+  <a href="#" target="_blank">
+    <img src="https://img.shields.io/badge/Fintech-Construction_Lending-00c4cc?style=flat&labelColor=1e293b" alt="DrawFi">
+  </a>
+  <p>Revolutionizing construction loan management through streamlined draw request processing</p>
+</div>
+</td>
+<td width="50%">
+<h3 align="center">wrkbnch</h3>
+<div align="center">
+  <a href="#" target="_blank">
+    <img src="https://img.shields.io/badge/SaaS-Contractor_Solutions-22c55e?style=flat&labelColor=1e293b" alt="wrkbnch">
+  </a>
+  <p>Empowering contractors with intelligent operational tools and workflows</p>
+</div>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<h3 align="center">SmartyKids</h3>
+<div align="center">
+  <a href="#" target="_blank">
+    <img src="https://img.shields.io/badge/EdTech-Interactive_Learning-f59e0b?style=flat&labelColor=1e293b" alt="SmartyKids">
+  </a>
+  <p>Gamified geography and history learning platform for young minds</p>
+</div>
+</td>
+<td width="50%">
+<h3 align="center">SoundGrid</h3>
+<div align="center">
+  <a href="#" target="_blank">
+    <img src="https://img.shields.io/badge/Music-Collaboration_Platform-8b5cf6?style=flat&labelColor=1e293b" alt="SoundGrid">
+  </a>
+  <p>Connecting musicians, engineers, and producers in a creative ecosystem</p>
+</div>
+</td>
+</tr>
+</table>
 
-- **Programming Languages:** Python, Dart, JavaScript
-- **Frameworks:** Flutter, React, Django
-- **Tools & Platforms:** Firebase, Docker, Git, Supabase
-- **Databases:** PostgreSQL, MySQL, SQLite
-- **Other Skills:** Machine Learning, Data Analysis, RESTful APIs
+## 💻 Tech Arsenal
 
-### 📈 GitHub Stats
+```javascript
+const techStack = {
+    languages: ['Python', 'Dart', 'JavaScript'],
+    frameworks: ['Flutter', 'React', 'Django'],
+    cloud: ['Firebase', 'Docker', 'Supabase'],
+    databases: ['PostgreSQL', 'MySQL', 'SQLite'],
+    expertise: ['Machine Learning', 'Data Analysis', 'RESTful APIs']
+};
+```
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Chretienb&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Chretienb&layout=compact&theme=radical)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Chretienb&theme=radical)
+## 📈 GitHub Analytics
 
-### 🏗️ Projects
+<div align="center">
+  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Chretienb&show_icons=true&theme=city_lights&hide_border=true&bg_color=0d1117&title_color=0891b2&icon_color=0891b2)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Chretienb&layout=compact&theme=city_lights&hide_border=true&bg_color=0d1117&title_color=0891b2)
+  
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Chretienb&theme=city-lights&hide_border=true&background=0d1117&ring=0891b2&fire=0891b2&currStreakLabel=0891b2)](https://git.io/streak-stats)
 
-- **[DrawFi](#):** A fintech solution focused on streamlining draw requests in the construction and lending industry.
-- **[wrkbnch](#):** A platform simplifying business operations for contractors.
-- **[SmartyKids](#):** An educational app for kids, focusing on fun and interactive learning.
-- **[SoundGrid](#):** A collaborative platform bridging the gap between musicians, engineers, and producers.
+</div>
 
-### 🌐 Connect With Me
+## 🏆 Recent Achievements
 
-- [LinkedIn](https://www.linkedin.com/in/chretien-banza-042831242)
-- [Portfolio](https://chretienb.github.io/) (Coming soon!)
+- 🚀 Successfully launched DrawFi platform
+- 🎮 Developed "Soccer Kick Showdown" in 24-hour Sandbox hackathon
+- 🎓 Stanford University Innovation Fellowship (UIF) participant
+- 🎵 Multi-instrumentalist proficient in 5+ instruments
 
-### 📚 Fun Fact
+## 🎵 Currently Playing
 
-I play more than five instruments and enjoy creating music when I'm not coding. 🎸🎹🥁
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=chretienbanza&cover_image=true&theme=natemoo-re&show_offline=false&background_color=0d1117&bar_color=0891b2)](https://github.com/kittinan/spotify-github-profile)
 
-### 🏆 Milestones
+---
 
-- 🎉 Launched [DrawFi](#), a fintech platform simplifying draw requests.
-- 🛠️ Built multiple apps, including [wrkbnch](#), empowering contractors.
-- 📚 Designed [SmartyKids](#), helping children learn through gamified experiences.
-- 🎶 Created [SoundGrid](#), fostering collaboration for musical artists.
-- 🌟 Participated in the University Innovation Fellowship (UIF) at Stanford, enhancing innovation and leadership skills.
-- 🏅 Excited to share our recent hackathon project, "Soccer Kick Showdown"! 🎮⚽
-  - 👨‍💻 Participated in a 24-hour hackathon for Sandbox.
-  - 🔍 Led backend scripting and contributed to the game concept for a multiplayer soccer penalty shootout game.
-  - 🎮 Features dynamic gameplay, intuitive controls, and engaging mechanics, showcasing our creativity and resilience under time constraints.
-  - 🌟 Plans to expand and enhance the game with new features and modes based on feedback.
+<div align="center">
+  
+[![Profile Views](https://komarev.com/ghpvc/?username=Chretienb&color=0891b2&style=flat&label=Profile+Views)](https://github.com/Chretienb)
 
-
+</div>
