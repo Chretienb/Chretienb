@@ -1,45 +1,95 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&text=Chretien%20Banza&textBg=false&animation=fadeIn&fontColor=fff&fontSize=70&stroke=FF1970&strokeWidth=3"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=200&color=gradient&text=Innovation%20•%20Technology%20•%20Creation&textBg=false&animation=fadeIn&fontColor=fff&fontSize=40&stroke=FF1970"/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=FF1970&center=true&vCenter=true&random=false&width=435&lines=Co-Founder+%40+DrawFi;Sandbox+Innovator;Full+Stack+Developer;Musical+Artist;Innovation+Fellow" alt="Typing SVG" />
+  <a href="https://www.linkedin.com/company/drawfi/"><img src="https://custom-icon-badges.demolab.com/badge/-DrawFi-FF1970?style=for-the-badge&logo=rocket&logoColor=white"/></a>
+  <a href="https://sandbox.ing/"><img src="https://custom-icon-badges.demolab.com/badge/-Sandbox-6366F1?style=for-the-badge&logo=galaxy&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/chretien-banza-042831242"><img src="https://custom-icon-badges.demolab.com/badge/-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </div>
-
-<img width="100%" src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<a href="https://chretienb.github.io/"><img src="https://custom-icon-badges.demolab.com/badge/-Portfolio-FF1970?style=for-the-badge&logo=rocket&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/chretien-banza-042831242"><img src="https://custom-icon-badges.demolab.com/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://www.sandbox.game/"><img src="https://custom-icon-badges.demolab.com/badge/-Sandbox-6366F1?style=for-the-badge&logo=galaxy&logoColor=white"/></a>
 
 </div>
 
-<br>
+## 🚀 Innovation Journey
 
-<!-- About Section -->
 <div align="center">
-  <img src="https://github-readme-tech-stack.vercel.app/api/cards?title=Innovation%20Journey&align=center&titleAlign=center&lineCount=1&theme=github_dark&line1=rocket,Co‑Founder%20@DrawFi,FF1970;graduation-cap,Sandbox%20Elite,6366F1;code,Tech%20Innovator,A855F7" alt="Journey"/>
+<table>
+<tr>
+<td width="50%">
+<h3 align="center"><a href="https://www.linkedin.com/company/drawfi/">DrawFi</a></h3>
+<div align="center">
+  <img src="https://img.shields.io/badge/Status-Active-FF1970?style=for-the-badge&logo=rocket&logoColor=white"/>
+  
+```javascript
+{
+  role: "Co-Founder",
+  mission: "Revolutionizing Construction Lending",
+  tech: ["ML Analytics", "Draw Automation"],
+  impact: "Streamlining Construction Finance"
+}
+```
+</div>
+</td>
+<td width="50%">
+<h3 align="center"><a href="https://sandbox.ing/">Sandbox</a></h3>
+<div align="center">
+  <img src="https://img.shields.io/badge/Status-Active-6366F1?style=for-the-badge&logo=galaxy&logoColor=white"/>
+  
+```javascript
+{
+  program: "Startup School",
+  focus: "Innovation & Technology",
+  achievements: ["Hackathon Champion"],
+  specialty: "Fintech Solutions"
+}
+```
+</div>
+</td>
+</tr>
+</table>
 </div>
 
-<!-- Current Focus -->
-## 🚀 Current Ventures
+## 💫 Venture Portfolio
 
 <table>
 <tr>
 <td width="50%">
-<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=DrawFi&align=center&titleAlign=center&lineCount=2&theme=github_dark&line1=💫%20Construction%20Lending,ML-Powered%20Platform,FF1970;&line2=🏆%20Co-Founder,Leading%20Innovation,A855F7" alt="DrawFi"/>
+<div align="center">
+  <h3>🏗️ Construction Fintech</h3>
+  <img src="https://img.shields.io/badge/DrawFi-ML--Powered-FF1970?style=flat-square&logo=tensorflow&logoColor=white"/>
+  <p>Transforming construction lending through automated draw processing and real-time risk assessment</p>
+</div>
 </td>
 <td width="50%">
-<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=Sandbox&align=center&titleAlign=center&lineCount=2&theme=github_dark&line1=🎮%20Startup%20School,Elite%20Member,6366F1;&line2=🌟%20Innovation,Strategy%20Master,22D3EE" alt="Sandbox"/>
+<div align="center">
+  <h3>🛠️ Contractor Tools</h3>
+  <img src="https://img.shields.io/badge/wrkbnch-Operations-6366F1?style=flat-square&logo=flutter&logoColor=white"/>
+  <p>Empowering contractors with intelligent operational tools and workflows</p>
+</div>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<div align="center">
+  <h3>📚 Educational Gaming</h3>
+  <img src="https://img.shields.io/badge/SmartyKids-Learning-22D3EE?style=flat-square&logo=react&logoColor=white"/>
+  <p>Gamified geography and history learning platform for young minds</p>
+</div>
+</td>
+<td width="50%">
+<div align="center">
+  <h3>🎵 Music Tech</h3>
+  <img src="https://img.shields.io/badge/SoundGrid-Collaboration-A855F7?style=flat-square&logo=apple-music&logoColor=white"/>
+  <p>Next-generation platform for musical collaboration and creation</p>
+</div>
 </td>
 </tr>
 </table>
 
-<!-- Tech Arsenal -->
-## ⚡ Tech Arsenal
+## ⚡ Tech Stack
 
 <div align="center">
-  
+
 ![Python](http://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Dart](http://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
 ![JavaScript](http://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -49,77 +99,16 @@
 
 </div>
 
-<!-- Innovation Showcase -->
-## 💫 Innovation Showcase
-
-<table>
-<tr>
-<td width="50%">
-<h3 align="center">DrawFi</h3>
-<div align="center">
-  <img src="https://img.shields.io/badge/Status-Live-00C853?style=for-the-badge&logo=firebase&logoColor=white"/>
-  <p>Revolutionizing construction lending through ML-powered analytics and automated draw processing</p>
-</div>
-</td>
-<td width="50%">
-<h3 align="center">wrkbnch</h3>
-<div align="center">
-  <img src="https://img.shields.io/badge/Status-Beta-FF6F00?style=for-the-badge&logo=flutter&logoColor=white"/>
-  <p>Smart operations platform empowering contractors with intelligent tools</p>
-</div>
-</td>
-</tr>
-<tr>
-<td width="50%">
-<h3 align="center">SmartyKids</h3>
-<div align="center">
-  <img src="https://img.shields.io/badge/Status-Development-2962FF?style=for-the-badge&logo=react&logoColor=white"/>
-  <p>Educational gaming platform with adaptive learning technology</p>
-</div>
-</td>
-<td width="50%">
-<h3 align="center">SoundGrid</h3>
-<div align="center">
-  <img src="https://img.shields.io/badge/Status-Alpha-7B1FA2?style=for-the-badge&logo=apple-music&logoColor=white"/>
-  <p>Next-gen music collaboration platform with real-time features</p>
-</div>
-</td>
-</tr>
-</table>
-
-<!-- Achievements -->
-## 🏆 Epic Achievements
-```javascript
-const achievements = {
-    founder: {
-        role: "Co-Founder @DrawFi",
-        impact: "Transforming construction lending",
-        status: "Leading innovation in fintech"
-    },
-    innovation: {
-        sandbox: "Elite member & hackathon champion",
-        stanford: "University Innovation Fellowship",
-        projects: "Multiple successful tech platforms"
-    },
-    creative: {
-        music: "Multi-instrument proficiency (5+)",
-        tech: "Full stack development mastery",
-        leadership: "Team building & mentorship"
-    }
-};
-```
-
-<!-- Musical Journey -->
-## 🎵 Musical Soul
+## 🎵 Creative Space
 
 <div align="center">
 
 [![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=chretienbanza&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=false&bar_color=FF1970)](https://github.com/kittinan/spotify-github-profile)
 
-*Multi-Instrument Artist • Sound Designer • Digital Composer*
+*Multi-Instrument Artist • Digital Creator*
 
 </div>
 
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer&text=Innovation%20Never%20Stops&fontSize=50&fontAlignY=65&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 </div>
