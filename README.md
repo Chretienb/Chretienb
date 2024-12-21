@@ -1,16 +1,34 @@
-## Hi there 👋
+# 👋 Hi, I'm Chretien Banza!
 
-<!--
-**Chretienb/Chretienb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🌟 About Me
 
-Here are some ideas to get you started:
+I'm a tech enthusiast and problem solver passionate about leveraging technology to create impactful solutions. I enjoy working on challenging projects that push boundaries and bring ideas to life.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠️ Tech Stack
+
+- **Programming Languages:** Python, Dart, JavaScript
+- **Frameworks:** Flutter, React, Django
+- **Tools & Platforms:** Firebase, Docker, Git, Supabase
+- **Databases:** PostgreSQL, MySQL, SQLite
+- **Other Skills:** Machine Learning, Data Analysis, RESTful APIs
+
+
+
+### 📈 GitHub Stats
+
+
+
+
+### 🏗️ Projects.
+
+- [**DrawFi**](#)**:** A fintech solution focused on streamlining draw requests in the construction and lending industry.
+
+### 🌐 Connect With Me
+
+- [LinkedIn](https://www.linkedin.com/in/chretien-banza-042831242)
+- [Portfolio](#)
+
+### 📚 Fun Fact
+
+I play more than five instruments and enjoy creating music when I'm not coding. 🎸🎹🥁
+
